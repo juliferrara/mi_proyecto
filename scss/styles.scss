@@ -1,4 +1,5 @@
-
+@import "components/variables";
+@import "components/footer";
 /*  ----------------------------------Generales----------------Menu--------------------------------------------- */
 
 html{
@@ -21,7 +22,7 @@ body {
 header{
     position: fixed;
     top: 0;
-    background-color: #ffffff;
+    background-color: $blanco;
     width: 100%;
     z-index: 100;
 }
@@ -45,22 +46,22 @@ ul {
 }
 
 li{
-    color:#6d6d6d;
+    color:$gris;
     font-size: 25px;    
 }
 
 
 
 .a {
-    color: #ffffff;
+    color: $blanco;
 }
 
 a{
-    color:#ffffff;   
+    color:$blanco;   
 }
 
 a:hover {
-    color: rgb(107, 105, 105);
+    color: $gris;
 }
 
 nav li a{
@@ -71,7 +72,7 @@ nav li a{
 }
 
 nav li a:hover {
-    color: #f4f076;
+    color: $amarillo;
 }
 
 .dropdown-item:active {
@@ -97,7 +98,7 @@ nav li a:hover {
 
 
 p{
-    color:#000000;
+    color:$negro;
     font-size: 2rem;
     margin: 1rem 1rem 1rem 1.5rem;
     padding: 1rem 1rem 1rem 1rem;
@@ -105,14 +106,14 @@ p{
 
 
 .main h1 {
-    color:#000000;
+    color:$negro;
     font-size: 6rem;    
     margin-left: 1.5rem;
 }
 
 
 .main h2 {
-    color:#000000;
+    color:$negro;
     font-size: 2.5rem;
     font-style: italic;
     margin-left: 1.5rem;
@@ -121,7 +122,7 @@ p{
 
 
 h1{
-    color: #000000;
+    color: $negro;
     font-size: 4rem;
     margin-left: 1.5rem;
     margin-top: 20rem;
@@ -134,7 +135,7 @@ h1{
 }
 
 h2{
-    color:#000000;
+    color:$negro;
     font-size: 3.7rem;
     margin-top: 4rem;
 }
@@ -145,23 +146,23 @@ h2{
 
 
 h3{
-    color:black;
+    color: $negro;
     font-size: 3.5rem;
     margin-left: 1.5rem;
 }
 
 .span {
-    background-color: #f4f076;
+    background-color: $amarillo;
     padding-left: 1rem;
     padding-right: 1rem;
 }
 
 section .mas {
-    color:#6d6d6d;
+    color:$gris;
     font-size: 1.4rem;
 }
 section a{
-    color:black;
+    color: $negro;
     font-size: 3.5rem;
     font-weight: bolder;
     text-decoration: none;
@@ -171,7 +172,7 @@ section a{
 
 
 .proyectindex{
-    color: #000000;
+    color: $negro;
     font-size: 4rem;
     margin-left: 1.5rem;
     margin-top: 2rem;    
@@ -226,7 +227,7 @@ form{
 
 fieldset{
     width: 45rem;
-    background-color: #000000;
+    background-color: $negro;
     border-radius: 1rem 1rem 1rem 1rem 1rem;
     margin: 4rem 1rem 1rem 1rem;
     padding: 2rem 0.5rem 0.5rem 0.5rem;
@@ -237,7 +238,7 @@ fieldset{
 
 input {
     width: 40rem;
-    background-color: #ffffff;
+    background-color: $blanco;
     font-size: 1.5rem;
     border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
     padding: 0.5rem 0.5rem 0.1rem 1rem;
@@ -247,14 +248,14 @@ input {
 
 input[type=submit] {
     width: 10rem;
-    background-color: #ffffff;
+    background-color: $blanco;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 
 }
 
 input[type=reset] {
     width: 10rem;
-    background-color: #ffffff;
+    background-color: $blanco;
     padding: 0.5rem 0.5rem 0.5rem 0.5rem;
 
 }
@@ -280,8 +281,8 @@ textarea {
 
 
 .boton:hover {
-    background-color: black;
-    color: white; }
+    background-color: $negro;
+    color: $blanco; }
 
 
 
@@ -310,43 +311,6 @@ textarea {
     display: inline;
 }
 
-
-
-
-/*  ----------------------------------Generales----------------Footer--------------------------------------------- */
-
-footer {
-    background-color: #000000;
-    padding: 0;
-    margin-top: 0;
-    height: 40rem;
-}
-
-footer li{
-    color:#ffffff;
-    font-size: 14px;
-    text-decoration: none;
-    margin-bottom: 10px;
-    display: flex;
-    align-items: center;
-}
-
-footer ul{
-    margin-bottom: 0;
-    margin-right: 1rem;
-    float: right;
-}
-
-.iconos {
-    width: 55px;
-    height: auto;
-}
-
-
-td {
-    color:#353535;
-    font-size: 20px;
-}
 
 
 /*  --------------------------------------------------Servicios Contenedor Flex--------------------------------------------- */
@@ -378,14 +342,14 @@ td {
 
 
 .tituloservicio {
-    color: #000000;
+    color: $negro;
     font-size: 2rem;
     margin-left: 1.2rem;
     margin: 3rem;
 }
 
 .tituloservindex{
-    color: #000000;
+    color: $negro;
     font-size: 4rem;
     margin-left: 1.5rem;
     margin-bottom: 3rem;  
@@ -415,7 +379,7 @@ td {
 }
 
 .parrafoabout{
-    background-color: #f4f076;
+    background-color: $amarillo;
     margin-left: 8rem;
     margin-bottom: 3rem;
     width: 40rem;
@@ -466,7 +430,7 @@ td {
 }
 
 .bodyblack{
-    background-color: #000000;
+    background-color: $negro;
     margin-right: none;
 }
 

@@ -1,4 +1,29 @@
 @charset "UTF-8";
+.footer {
+  background-color: #000000;
+  padding: 0;
+  margin-top: 0;
+  height: 350px; }
+
+.footer__logo {
+  width: 25rem;
+  height: auto; }
+
+.footer__datos {
+  margin-bottom: 0;
+  margin-right: 1rem;
+  float: right; }
+  .footer__datos .footer__item {
+    color: #ffffff;
+    font-size: 14px;
+    text-decoration: none;
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center; }
+  .footer__datos .footer__icon {
+    width: 55px;
+    height: auto; }
+
 /*  ----------------------------------Generales----------------Menu--------------------------------------------- */
 html {
   font-size: 10px; }
@@ -42,7 +67,7 @@ a {
   color: #ffffff; }
 
 a:hover {
-  color: #6b6969; }
+  color: #6d6d6d; }
 
 nav li a {
   color: #353535;
@@ -102,7 +127,7 @@ h2 {
   margin-left: 1.5rem; }
 
 h3 {
-  color: black;
+  color: #000000;
   font-size: 3.5rem;
   margin-left: 1.5rem; }
 
@@ -116,7 +141,7 @@ section .mas {
   font-size: 1.4rem; }
 
 section a {
-  color: black;
+  color: #000000;
   font-size: 3.5rem;
   font-weight: bolder;
   text-decoration: none;
@@ -200,8 +225,8 @@ textarea {
   transition: background-color 0.4s ease, color 0.4s ease; }
 
 .boton:hover {
-  background-color: black;
-  color: white; }
+  background-color: #000000;
+  color: #ffffff; }
 
 /* -----------------------------------------------------------------Clases Imagenes------------------------------------------------------------- */
 .imgservicios {
@@ -218,34 +243,6 @@ textarea {
   height: 11rem;
   width: 11rem;
   display: inline; }
-
-/*  ----------------------------------Generales----------------Footer--------------------------------------------- */
-footer {
-  background-color: #000000;
-  padding: 0;
-  margin-top: 0;
-  height: 40rem; }
-
-footer li {
-  color: #ffffff;
-  font-size: 14px;
-  text-decoration: none;
-  margin-bottom: 10px;
-  display: flex;
-  align-items: center; }
-
-footer ul {
-  margin-bottom: 0;
-  margin-right: 1rem;
-  float: right; }
-
-.iconos {
-  width: 55px;
-  height: auto; }
-
-td {
-  color: #353535;
-  font-size: 20px; }
 
 /*  --------------------------------------------------Servicios Contenedor Flex--------------------------------------------- */
 #servicios-contenedor {
