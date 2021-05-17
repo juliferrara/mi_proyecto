@@ -2,7 +2,7 @@
     background-color: $negro;
     padding: 0;
     margin-top: 0;
-    height: 350px;
+    height: 35rem;
 }
     .footer__logo{
     width:25rem;
@@ -10,8 +10,9 @@
     }
 
     .footer__datos{
+        margin-top: 2rem;
         margin-bottom: 0;
-        margin-right: 1rem;
+        margin-right: 2rem;
         float: right;
     
     
@@ -19,14 +20,14 @@
             color: $blanco;
             font-size: 14px;
             text-decoration: none;
-            margin-bottom: 10px;
+            margin-bottom: 1rem;
             display: flex;
             align-items: center;
         }    
     
         
         .footer__icon {
-        width: 55px;
+        width: 5rem;
         height: auto;
     }
     

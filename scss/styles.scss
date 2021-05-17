@@ -1,5 +1,6 @@
 @import "components/variables";
 @import "components/footer";
+
 /*  ----------------------------------Generales----------------Menu--------------------------------------------- */
 
 html{
@@ -161,6 +162,7 @@ section .mas {
     color:$gris;
     font-size: 1.4rem;
 }
+
 section a{
     color: $negro;
     font-size: 3.5rem;
@@ -177,9 +179,6 @@ section a{
     margin-left: 1.5rem;
     margin-top: 2rem;    
 }
-
-
-
 
 
 
@@ -200,9 +199,37 @@ section a{
 }
 
 
+.anchor {
+    display: block;
+    height: 208px;
+    top: -217px;
+    position: absolute;
+    visibility: hidden;
+}
+
+.fijado {
+    position: relative;    
+}
+
+
+
 .bold {
     font-weight: bold;
 }
+
+
+.enviado {
+    font-size: 5rem;
+    font-weight: bold;
+    padding-bottom: 10rem;
+    padding-top: 4rem;
+}
+
+.titenviado {
+    font-size: 7rem;
+}
+
+
 
 /* -----------------------------------------------------------------CONTACTO HTML------------------------------------------------------------- */
 
@@ -357,17 +384,7 @@ textarea {
 
 
 /*  --------------------------------------------------Flex ABOUT---------------------------------------------------------------- */
-.flexabout {
-    display: flex;
-    flex-wrap: nowrap;
-    flex-direction: row;
-    align-items: flex-end;
-}
 
-.imgabout {
-    height: auto;
-    width: 32%;   
-}
 
 .imgmia {
     margin-bottom: 3rem;

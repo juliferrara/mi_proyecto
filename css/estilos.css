@@ -3,25 +3,26 @@
   background-color: #000000;
   padding: 0;
   margin-top: 0;
-  height: 350px; }
+  height: 35rem; }
 
 .footer__logo {
   width: 25rem;
   height: auto; }
 
 .footer__datos {
+  margin-top: 2rem;
   margin-bottom: 0;
-  margin-right: 1rem;
+  margin-right: 2rem;
   float: right; }
   .footer__datos .footer__item {
     color: #ffffff;
     font-size: 14px;
     text-decoration: none;
-    margin-bottom: 10px;
+    margin-bottom: 1rem;
     display: flex;
     align-items: center; }
   .footer__datos .footer__icon {
-    width: 55px;
+    width: 5rem;
     height: auto; }
 
 /*  ----------------------------------Generales----------------Menu--------------------------------------------- */
@@ -166,8 +167,27 @@ section a {
   height: auto;
   align-items: center; }
 
+.anchor {
+  display: block;
+  height: 208px;
+  top: -217px;
+  position: absolute;
+  visibility: hidden; }
+
+.fijado {
+  position: relative; }
+
 .bold {
   font-weight: bold; }
+
+.enviado {
+  font-size: 5rem;
+  font-weight: bold;
+  padding-bottom: 10rem;
+  padding-top: 4rem; }
+
+.titenviado {
+  font-size: 7rem; }
 
 /* -----------------------------------------------------------------CONTACTO HTML------------------------------------------------------------- */
 .subcontacto {
@@ -279,16 +299,6 @@ textarea {
   margin-bottom: 3rem; }
 
 /*  --------------------------------------------------Flex ABOUT---------------------------------------------------------------- */
-.flexabout {
-  display: flex;
-  flex-wrap: nowrap;
-  flex-direction: row;
-  align-items: flex-end; }
-
-.imgabout {
-  height: auto;
-  width: 32%; }
-
 .imgmia {
   margin-bottom: 3rem;
   margin-top: 2rem;
